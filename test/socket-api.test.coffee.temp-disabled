@@ -1,0 +1,12 @@
+should  = require('chai').should()
+SaxoAPI = require '..'
+
+saxo    = new SaxoAPI require '../config/config'
+
+## Begin tests
+
+
+describe 'Subscription API', ->
+
+  it 'should connect', (done) ->
+    saxo.connect done

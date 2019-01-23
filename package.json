@@ -1,0 +1,52 @@
+{
+  "name": "saxoapi",
+  "version": "0.0.9",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers coffee:coffeescript/register -c -r chai -R spec -t 50000 -s 2000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appspine": "0.0.12",
+    "async": "1.4.2",
+    "chai": "^1.9.0",
+    "coffeescript": "2.1.0",
+    "colors": "*",
+    "eventemitter2": "^0.4.13",
+    "findit": "0.1.2",
+    "growl": "1.9.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-coffee": "1.0.0",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-less": "1.4.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-ember-templates": "1.1.1",
+    "grunt-jasmine-runner": "^0.6.0",
+    "grunt-notify": "0.4.5",
+    "grunt-tusk-coffee": "*",
+    "hat": "^0.0.3",
+    "hiredis": "0.5.0",
+    "inflection": "1.12.0",
+    "loglevel": "1.6.0",
+    "mocha": "^1.17.1",
+    "moment": "2.17.1",
+    "numbers": "*",
+    "redis": "2.6.5",
+    "request": "2.79.0",
+    "requirejs": "^2.1.11",
+    "simple-logger": "^1.0.1",
+    "signalr-client": "*",
+    "socket.io": "*",
+    "socket.io-client": "*",
+    "superagent": "^0.16.0",
+    "talib": "^1.0.3",
+    "util": "*",
+    "xmlhttprequest": "^1.6.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.7.0",
+    "should": "^11.2.1"
+  }
+}
